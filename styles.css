@@ -1,0 +1,13 @@
+/* UNIVERSAL STYLES */
+/* root */
+#root {
+  /* layout */
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+  /* font */
+  font-family: 'Roboto', sans-serif;
+  /* colors */
+  background-color: white;
+  color: black;
+}
