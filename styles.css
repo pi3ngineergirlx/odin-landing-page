@@ -58,3 +58,72 @@ button {
     border: none;
     border-radius: 5px;
 }
+
+/* HEADER */
+/* universal styles */
+.header {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    /* colors */
+    background-color: #1F2937;
+    color: #F9FAF8;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+}
+/* header h1 */
+.header h1 {
+    /* font */
+    font-weight: 900;
+}
+/* header top */
+.header-top {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header top logo */
+.header-top-logo {
+    /* colors */
+    color: #F9FAF8;
+    /* font */
+    font-size: 24px;
+}
+/* header top links */
+.header-top-links {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.header-top-links a {
+    /* colors */
+    color: #E5E7EB;
+    text-decoration: none;
+    /* font */
+    font-size: 18px;
+}
+/* header body */
+.header-body {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-body h4 {
+    /* font */
+    font-size: 18px;
+    font-weight: normal;
+}
