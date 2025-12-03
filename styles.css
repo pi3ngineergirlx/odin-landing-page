@@ -42,3 +42,19 @@ h3 {
 h4 {
     font-size: 18px;
 }
+
+/* buttons */
+button {
+    /* layout */
+    padding: 10px 30px;
+    margin: 10px;
+    /* colors */
+    background-color: #3882F6;
+    color: white;
+    /* font */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    /* border */
+    border: none;
+    border-radius: 5px;
+}
