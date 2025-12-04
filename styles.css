@@ -127,3 +127,59 @@ button {
     font-size: 18px;
     font-weight: normal;
 }
+
+/* RANDOM INFO */
+/* universal styles */
+.random-info {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    /* colors */
+    background-color: white;
+    color: #1F2937;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+/* random info header */
+.random-info-header h2{
+    /* font */
+    font-weight: 900;
+}
+/* random info content */
+.random-info-content {
+    /* layout */
+    padding: 10px;
+    margin: 10px auto;
+    max-width: none;
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+/* info card */
+.info-card {
+    /* layout */
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 220px;
+}
+/* info card image */
+.info-card img {
+    /* layout */
+    width: 150px;
+    height: 150px;
+    /* border */
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
