@@ -256,3 +256,19 @@ button {
     border: 2px solid white;
     border-radius: 10px;
 }
+
+/* FOOTER */
+/* footer */
+.footer {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    /* colors */
+    background-color: #1F2937;
+    color: #F9FAF8;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
