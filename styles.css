@@ -208,3 +208,51 @@ button {
     font-style: italic;
     font-weight: 300;
 }
+
+/* CALL TO ACTION */
+/* universal styles */
+.call-to-action {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    width: 1000px;
+    /* colors */
+    background-color: #3882F6;
+    color: white;
+    /* border */
+    border: none;
+    border-radius: 10px;
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+/* call text */
+.call-text {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.call-text h1,
+.call-text h2,
+.call-text h3,
+.call-text h4,
+.call-text p,
+.call-text div {
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+/* button */
+.call-signup button {
+    /* border */
+    border: 2px solid white;
+    border-radius: 10px;
+}
