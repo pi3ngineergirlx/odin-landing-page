@@ -183,3 +183,28 @@ button {
     border: 2px solid #3882F6;
     border-radius: 10px;
 }
+
+/* QUOTE */
+/* universal styles */
+.quote {
+    /* layout */
+    padding: 10px;
+    margin: 10px;
+    /* colors */
+    background-color: #F3F4F6;
+    color: #1F2937;
+    /* flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+/* quote text */
+.quote-text h2{
+    /* layout */
+    max-width: 800px;
+    /* font */
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
